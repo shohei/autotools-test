@@ -2,7 +2,8 @@
 #include "hoge.h"
 
 int main(void){
-    hogeprintf("hello");
+    char* str = "hello world and world\n";
+    hogeprintf(str);
 
     return 0;
 }

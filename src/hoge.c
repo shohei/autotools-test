@@ -2,6 +2,6 @@
 #include "hoge.h"
 
 void hogeprintf(char *str){
-    printf("hello");    
+    printf(str);    
 };
 
